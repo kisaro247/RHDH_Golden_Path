@@ -127,6 +127,9 @@ spec:
           projectName: ${{ parameters.projectName }}
           apikey: ${{ parameters.apikey }}
           clusterid: ${{ parameters.clusterid }}
+          argocdServer: ${{ parameters.argocdServer }}
+          argocdUsername: ${{ parameters.argocdUsername }}
+          argocdPassword: ${{ parameters.argocdPassword }}
 
     - id: deployManifests
       name: "Generating deployment manifests"
