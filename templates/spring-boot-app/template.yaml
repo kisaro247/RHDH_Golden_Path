@@ -2,8 +2,8 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: spring-boot-weather-api-backend (OW)
-  title: Weather-App REST Backend
+  name: spring-boot-weather-api-backend
+  title: Weather-App REST Backend (OW)
   description: Create a rest api backend in spring-boot with CICD pipeline 
   tags:
     - springboot
